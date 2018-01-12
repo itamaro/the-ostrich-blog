@@ -1,0 +1,37 @@
+baseURL = "https://blog.itamaro.com/"
+languageCode = "en-us"
+title = "The Ostrich"
+# theme = "hugo-bootstrap-premium"
+theme = "ananke"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 10
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+  page = "/:slug/"
+
+[params]
+  favicon = "favicon.png"
+  description = "The Ostrich: Break; Build; Repeat;"
+  facebook = "https://www.facebook.com/Ostrich.IO/"
+  twitter = "https://twitter.com/OstricherIO"
+  github = "https://github.com/TheOstrichIO"
+  linkedin = "https://www.linkedin.com/in/itamaro/"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/logo-ostrich.jpg"
+  recent_posts_number = 5
+  body_classes = "avenir bg-near-white"
+
+[[menu.main]]
+  name   = "About"
+  url    = "/about/"
+  weight = 0
