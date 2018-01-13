@@ -57,3 +57,24 @@ typings/
 # dotenv environment variables file
 .env
 
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+public/
+nbproject/
+
+# Vagrant
+.vagrant/
+
+# FE Setup
+dist/
+
+junit.xml
+partials/structure/stylesheet.html
