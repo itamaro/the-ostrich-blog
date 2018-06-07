@@ -9,6 +9,7 @@ help:
 	@echo '                                                                   '
 
 dev:
+	rm -rf dev
 	@echo "Running Hugo dev server with drafts"
 	hugo server --watch --buildDrafts --destination dev
 
